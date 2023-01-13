@@ -1,5 +1,4 @@
 #include <iostream>
-int year;
 int main()
 {
   double miles;
