@@ -5,7 +5,7 @@ int main()
 {
   double weightE;
   double weightP;
-  str planet;
+  // str planet;
   int number;
 
   std::cout << "What is your weight on Earth?\n ";
@@ -16,37 +16,37 @@ int main()
   if (weightE == 1)
   {
     weightP = weightE * 0.38;
-    planet = "Mercury\n";
+    // planet = "Mercury\n";
   }
   else if (weightE == 2)
   {
     weightP = weightE * 0.91;
-    planet = "Venus\n";
+    // planet = "Venus\n";
   }
   else if (weightE == 3)
   {
     weightP = weightE * 0.38;
-    planet = "Mars\n";
+    // planet = "Mars\n";
   }
   else if (weightE == 4)
   {
     weightP = weightE * 2.34;
-    planet = "Jupiter\n";
+    // planet = "Jupiter\n";
   }
   else if (weightE == 5)
   {
     weightP = weightE * 1.06;
-    planet = "Saturn\n";
+    // planet = "Saturn\n";
   }
   else if (weightE == 6)
   {
-    weightP = weight * 0.92;
-    planet = "Uranus\n";
+    weightP = weightE * 0.92;
+    // planet = "Uranus\n";
   }
   else if (weightE == 7)
   {
     weightP = weightE * 1.19;
-    planet = "Neptune\n";
+    // planet = "Neptune\n";
   }
-  std::cout << "Your weight on " << planet << " is" << weightP;
+  std::cout << "Your weight on the planet is " << weightP << "\n";
 }
